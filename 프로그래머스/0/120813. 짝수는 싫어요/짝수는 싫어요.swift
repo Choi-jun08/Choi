@@ -1,3 +1,5 @@
 import Foundation
 
-func solution(_ n:Int) -> [Int] { (1...n).filter{$0 % 2 == 1} }
+func solution(_ n:Int) -> [Int] { let number = (1...n)
+    return number.filter{$0 % 2 == 1}
+}
